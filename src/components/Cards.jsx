@@ -23,10 +23,14 @@ export const Cards = () => {
 
   const addCard = () => {
     let cardLenght = cards?.length - 1;
-    let cardLenghtID = cards?.length + 1;
     cards.filter((card) => card.name !== "");
-    cards.splice(cardLenght, 0, { name: "Bueno", img: true, id: cardLenghtID });
+    cards.splice(cardLenght, 0, {
+      name: "Bueno",
+      img: true,
+      id: crypto.randomUUID(),
+    });
     setCards([...cards]);
+    console.log(cards);
   };
 
   const editCard = (card, i) => {
