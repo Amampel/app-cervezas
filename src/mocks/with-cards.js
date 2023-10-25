@@ -1,0 +1,15 @@
+export const MOCK_CARDS = [
+  { name: "Cerveza1", owner: "adria.mampel@yopmail.com", img: true, id: 1 },
+  { name: "Cerveza2", owner: "adria.mampel@yopmail.com", img: true, id: 2 },
+  { name: "Cerveza3", owner: "adria.mampel@yopmail.com", img: true, id: 3 },
+  { name: "Cerveza4", owner: "adria.mampel@yopmail.com", img: true, id: 4 },
+  { name: "Cerveza5", owner: "adria.mampel@yopmail.com", img: true, id: 5 },
+  { name: "Cerveza6", owner: "adria.mampel@yopmail.com", img: true, id: 6 },
+  { name: "Cerveza7", owner: "adria.mampel@yopmail.com", img: true, id: 7 },
+  { name: "Cerveza8", owner: "adria.mampel@yopmail.com", img: true, id: 8 },
+  { name: "Cerveza9", owner: "adria.mampel@yopmail.com", img: true, id: 9 },
+  { name: "Cerveza10", owner: "adria.mampel@yopmail.com", img: true, id: 10 },
+  { name: "Cerveza11", owner: "adria.mampel@yopmail.com", img: true, id: 11 },
+  { name: "Cerveza12", owner: "adria.mampel@yopmail.com", img: true, id: 12 },
+  { name: "Cerveza13", owner: "adria.mampel@yopmail.com", img: true, id: 13 },
+];
